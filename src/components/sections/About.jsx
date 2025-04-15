@@ -3,13 +3,16 @@ import { RevealOnScroll } from "../RevealOnScroll";
 export const About = () => {
   const frontendSkills = [
     "React",
-    "Vue",
-    "TypeScript",
+    "JavaScript",
+    "HTML",
+    "CSS",
     "TailwindCSS",
-    "Svelte",
+    "Wordpress",
   ];
 
-  const backendSkills = ["Node.js", "Python", "AWS", "MongoDB", "GraphQL"];
+  const backendSkills = ["Node.js", "Express", "Python", "Flask", "PHP", "MongoDB", "PostgreSQL"];
+  const cyberSkills = ["Penetration Testing", "Ethical Hacking", "Web Application Security", "Network Security", "Cryptography"];
+  const tools = ["Git/GitHub", "Docker", "AWS", "GCP", "Azure", "Unit Testing", "Cloudfare", "Continuous Integration"]
 
   return (
     <section
@@ -25,8 +28,7 @@ export const About = () => {
 
           <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
             <p className="text-gray-300 mb-6">
-              Passionate developer with expertise in building scalable web
-              applications and creating innovative solutions.
+            Passionate full-stack developer and cybersecurity professional with expertise in building scalable web applications and implementing robust security solutions.
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -61,6 +63,36 @@ export const About = () => {
                   ))}
                 </div>
               </div>
+              <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
+                <h3 className="text-xl font-bold mb-4">Cybersecurity</h3>
+                <div className="flex flex-wrap gap-2">
+                  {cyberSkills.map((tech, key) => (
+                    <span
+                      key={key}
+                      className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 
+                                    hover:shadow-[0_2px_8px_rgba(59,130,2246,0.2)] transition
+                    "
+                    >
+                      {tech}
+                    </span>
+                  ))}
+                </div>
+              </div>
+              <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
+                <h3 className="text-xl font-bold mb-4">Tools</h3>
+                <div className="flex flex-wrap gap-2">
+                  {tools.map((tech, key) => (
+                    <span
+                      key={key}
+                      className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 
+                                    hover:shadow-[0_2px_8px_rgba(59,130,2246,0.2)] transition
+                    "
+                    >
+                      {tech}
+                    </span>
+                  ))}
+                </div>
+              </div>
             </div>
           </div>
 
@@ -69,12 +101,11 @@ export const About = () => {
               <h3 className="text-xl font-bold mb-4"> 🏫 Education </h3>
               <ul className="list-disc list-inside text-gray-300 space-y-2">
                 <li>
-                  <strong> B.S. in Computer Science </strong> - XYZ University
-                  (2016-2020)
+                  <strong> Diploma in Cybersecurity </strong> - Toronto School Of Management
+                  (May 2024 - April 2025)
                 </li>
                 <li>
-                  Relevant Coursework: Data Structures, Web Development, Cloud
-                  Computing...
+                Penetration Testing, Network Security, Ethical Hacking, Secure Software Development, Cloud Security, Web Application Security
                 </li>
               </ul>
             </div>
@@ -84,23 +115,19 @@ export const About = () => {
                 <div>
                   <h4 className="font-semibold">
                     {" "}
-                    Software Engineer at ABC Corp (2020 - Present){" "}
+                    IT Support & Cybersecurity Specialist (2024 - Present){" "}
                   </h4>
-                  <p>
-                    Developed and maintained microservices for cloud-based
-                    applications.
-                  </p>
+                  <li>Lead IT infrastructure management and ensure website security for the company.</li>
+                  <li>Deploy Web Application Firewalls (WAFs) and optimize WordPress website performance.</li>
                 </div>
 
                 <div>
                   <h4 className="font-semibold">
                     {" "}
-                    Intern at DEF Startups (2019){" "}
+                    Bethel Apostolic Church (2024 - Present){" "}
                   </h4>
-                  <p>
-                    Assisted in building front-end components and integration
-                    REST APIs
-                  </p>
+                  <li>Manage IT infrastructure, cybersecurity, and software development for the church.</li>
+                  <li>Developed and maintained custom software solutions for operational use.</li>
                 </div>
               </div>
             </div>
