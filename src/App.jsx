@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import "./App.css";
 import { LoadingScreen } from "./components/LoadingScreen";
 import { Navbar } from "./components/Navbar";
@@ -12,6 +12,24 @@ import { Contact } from "./components/sections/Contact";
 function App() {
   const [isLoaded, setIsLoaded] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
+
+  // Matomo tracking integration (added here)
+  useEffect(() => {
+    // Initialize Matomo tracking array if it's not already created
+    var _mtm = window._mtm = window._mtm || [];
+
+    // Set the start time and trigger the 'mtm.Start' event
+    _mtm.push({
+      'mtm.startTime': new Date().getTime(),
+      'event': 'mtm.Start'
+    });
+
+    // Dynamically load the Matomo tracking script
+    var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
+    g.async = true;
+    g.src = 'https://cdn.matomo.cloud/pastor.matomo.cloud/container_OH7WkSnb.js'; // Replace with your Matomo container URL
+    s.parentNode.insertBefore(g, s);
+  }, []); // The empty array ensures this runs only once, when the component is mounted
 
   return (
     <>
