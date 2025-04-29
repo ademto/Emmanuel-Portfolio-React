@@ -12,7 +12,7 @@ export const About = () => {
 
   const backendSkills = ["Node.js", "Express", "Python", "Flask", "PHP", "MongoDB", "PostgreSQL"];
   const cyberSkills = ["Penetration Testing", "Ethical Hacking", "Web Application Security", "Network Security", "Cryptography"];
-  const tools = ["Git/GitHub", "Docker", "AWS", "GCP", "Azure", "Unit Testing", "Cloudfare", "Continuous Integration"]
+  const tools = ["Git/GitHub", "Docker", "AWS", "GCP", "Azure", "Unit Testing", "Cloudfare", "Continuous Integration", "Linux"]
 
   return (
     <section

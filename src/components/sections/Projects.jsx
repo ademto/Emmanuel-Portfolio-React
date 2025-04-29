@@ -14,6 +14,33 @@ export const Projects = () => {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
+              <h3 className="text-xl font-bold mb-2">WpFortress – WordPress Vulnerability Scanner CLI</h3>
+              <p className="text-gray-400 mb-4">
+              A Python-based CLI tool utilizing WPScan and its API to scan WordPress sites for vulnerabilities in core files, plugins, themes, and user accounts. Provides structured outputs and upcoming features like AI-driven recommendations, "RockYou" password safety tests, and a web version for accessibility.
+              </p>
+              <div className="flex flex-wrap gap-2 mb-4">
+                {["Python", "WPScan", "API", "Git", "Github", "Terminal"].map((tech, key) => (
+                  <span
+                    key={key}
+                    className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 
+                                    hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition-all
+                    "
+                  >
+                    {tech}
+                  </span>
+                ))}
+              </div>
+
+              <div className="flex justify-between items-center">
+                <a
+                  href="#"
+                  className="text-blue-400 hover:text-blue-300 transition-colors my-4"
+                >
+                  View Project →
+                </a>
+              </div>
+            </div>
+            <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
               <h3 className="text-xl font-bold mb-2"> WordPress Custom Theme & CI/CD Integration</h3>
               <p className="text-gray-400 mb-4">
                 Devthing WordPress theme built from scratch using block-based architecture and Gutenberg support. Integrated with GitHub Actions for CI/CD deployment on Dockerized environments. Focused on performance, accessibility, and maintainability.
@@ -168,7 +195,7 @@ export const Projects = () => {
               A bilingual website for a model agency, designed to showcase the agency's talent in both English and French.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
-                {["Wordpress", "WPML", "Gtranslate", "HTML", "CSS", "JS", "PHP"].map((tech, key) => (
+                {["Wordpress", "WPML", "Gtranslate", "HTML", "CSS", "JS", "PHP", "Cloudfare", "SEO"].map((tech, key) => (
                   <span
                     key={key}
                     className="
@@ -206,6 +233,80 @@ export const Projects = () => {
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
                 {["React", "Tailwind CSS", "Github", "Netlify", "Git", "Vite"].map((tech, key) => (
+                  <span
+                    key={key}
+                    className="
+                      bg-blue-500/10 text-blue-500 py-1 px-3 
+                      rounded-full text-sm
+                      transition
+                      hover:bg-blue-500/20 hover:-translate-y-0.5
+                      hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)]
+                    "
+                  >
+                    {tech}
+                  </span>
+                ))}
+              </div>
+              <div className="flex justify-between items-center ">
+                <a
+                  href="#"
+                  className="text-blue-400 hover:text-blue-300 transition-colors my-4"
+                >
+                  View Project →
+                </a>
+              </div>
+            </div>
+            <div
+              className="
+              glass p-6 rounded-xl border border-white/10 
+              hover:-translate-y-1 hover:border-blue-500/30
+              hover:shadow-[0_4px_20px_rgba(59,130,246,0.1)]
+              transition-all
+            "
+            >
+              <h3 className="text-xl font-bold mb-2">Church Website</h3>
+              <p className="text-gray-400 mb-4">
+              A fully functional church website designed with WordPress, featuring event calendars, donation options, and community-building tools.
+              </p>
+              <div className="flex flex-wrap gap-2 mb-4">
+                {["React", "Tailwind CSS", "Github", "Netlify", "Git", "Vite"].map((tech, key) => (
+                  <span
+                    key={key}
+                    className="
+                      bg-blue-500/10 text-blue-500 py-1 px-3 
+                      rounded-full text-sm
+                      transition
+                      hover:bg-blue-500/20 hover:-translate-y-0.5
+                      hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)]
+                    "
+                  >
+                    {tech}
+                  </span>
+                ))}
+              </div>
+              <div className="flex justify-between items-center ">
+                <a
+                  href="https://bethelapostolic.ca/" target="_blank"
+                  className="text-blue-400 hover:text-blue-300 transition-colors my-4"
+                >
+                  View Project →
+                </a>
+              </div>
+            </div>
+            <div
+              className="
+              glass p-6 rounded-xl border border-white/10 
+              hover:-translate-y-1 hover:border-blue-500/30
+              hover:shadow-[0_4px_20px_rgba(59,130,246,0.1)]
+              transition-all
+            "
+            >
+              <h3 className="text-xl font-bold mb-2">E-commerce Website with Shopify</h3>
+              <p className="text-gray-400 mb-4">
+              A robust and scalable Shopify-powered online store designed for seamless shopping experiences. Features include product listing, payment integration, and inventory management.
+              </p>
+              <div className="flex flex-wrap gap-2 mb-4">
+                {["Shopify", "Liquid", "HTML", "CSS", "JavaScript"].map((tech, key) => (
                   <span
                     key={key}
                     className="
