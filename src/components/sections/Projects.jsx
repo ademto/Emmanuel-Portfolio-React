@@ -38,6 +38,13 @@ const featuredProjects = [
     link: "https://github.com/ademto/FitJourney-Website",
   },
   {
+    title: "REST Countries API with Theme Switcher",
+    description:
+      "A responsive web app that displays country data from the REST Countries API. Features include region filtering, dark/light mode, search, and detailed routing for each country.",
+    tech: ["React", "Tailwind CSS", "REST API", "React Router", "Vite"],
+    link: "https://rest-countries-ademto.netlify.app",
+  },  
+  {
     title: "Church Website",
     description: "WordPress-powered site with calendars, donation features, and tools to foster church community engagement.",
     tech: ["React", "Tailwind CSS", "GitHub", "Netlify", "Git", "Vite"],
