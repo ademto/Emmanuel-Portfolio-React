@@ -14,7 +14,7 @@ export const Home = () => {
           </h1>
 
           <p className="tex-gray-400 text-lg mb-8 max-w-4xl mx-auto">
-            I’m a full-stack developer and cybersecurity professional passionate about building clean, scalable web applications. Specializing in secure software development and penetration testing, I identify vulnerabilities and strengthen defenses to ensure applications are high-performing, secure, and offer a seamless user experience.
+          I make computers do things you can’t possibly imagine. As a full-stack developer and cybersecurity professional, I build secure, scalable applications — and identify vulnerabilities before attackers can exploit them.
           </p>
           <div className="flex justify-center space-x-4">
             <a
