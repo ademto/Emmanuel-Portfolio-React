@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import PropTypes from "prop-types";
 
 export const MobileMenu = ({ menuOpen, setMenuOpen }) => {
   return (
@@ -69,4 +69,9 @@ export const MobileMenu = ({ menuOpen, setMenuOpen }) => {
       </a>
     </div>
   );
+};
+
+MobileMenu.propTypes = {
+  menuOpen: PropTypes.bool.isRequired,
+  setMenuOpen: PropTypes.func.isRequired,
 };

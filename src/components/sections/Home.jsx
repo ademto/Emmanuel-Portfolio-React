@@ -10,11 +10,11 @@ export const Home = () => {
       <RevealOnScroll>
         <div className="text-center z-10 px-4">
           <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent leading-right">
-            Hi, I'm Emmanuel Adetoro
+            Hi, I&apos;m Emmanuel Adetoro
           </h1>
 
-          <p className="tex-gray-400 text-lg mb-8 max-w-4xl mx-auto">
-          I make computers do things you can’t possibly imagine. As a full-stack developer and cybersecurity professional, I build secure, scalable applications — and identify vulnerabilities before attackers can exploit them.
+          <p className="text-gray-400 text-lg mb-8 max-w-4xl mx-auto">
+          I make computers do things you can&apos;t possibly imagine. As a full-stack developer and cybersecurity professional, I build secure, scalable applications — and identify vulnerabilities before attackers can exploit them.
           </p>
           <div className="flex justify-center space-x-4">
             <a

@@ -28,7 +28,7 @@ export const Contact = () => {
         </h2>
 
         {state.succeeded ? (
-          <p className="text-center text-green-500">Thanks for reaching out! We'll get back to you soon.</p>
+          <p className="text-center text-green-500">Thanks for reaching out! We&apos;ll get back to you soon.</p>
         ) : (
           <form onSubmit={handleSubmit} className="space-y-6">
             <div className="relative">
