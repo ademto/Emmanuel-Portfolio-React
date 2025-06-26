@@ -94,7 +94,7 @@ export const About = () => {
             </div>
           </div>
 
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+          <div className="grid grid-cols-1 lg:grid-cols-1 gap-8">
             <div className="backdrop-blur-xl bg-white/5 rounded-2xl p-8 border border-white/10 shadow-xl hover:shadow-purple-500/10 transition-all duration-500 hover:-translate-y-2">
               <h3 className="text-2xl font-bold mb-6 text-white flex items-center">
                 <span className="text-3xl mr-3">🏫</span>
