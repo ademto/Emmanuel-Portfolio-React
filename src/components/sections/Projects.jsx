@@ -2,22 +2,34 @@ import { RevealOnScroll } from "../RevealOnScroll";
 
 const featuredProjects = [
   {
+    title: "Echo & Ember – Headless E-commerce Platform",
+    description: "Developed a modern, scalable e-commerce platform for Echo & Ember using a headless architecture. Built a custom storefront with Next.js, integrating Shopify Storefront API via GraphQL for seamless product browsing and checkout. Implemented advanced product filtering, best-seller carousels, and dynamic collections for an engaging shopping experience. Optimized for performance, SEO, and mobile responsiveness. Managed cloud deployment, CI/CD, and ensured high availability.",
+    tech: ["Next.js", "React", "Shopify Storefront API", "GraphQL", "Tailwind CSS", "Vercel", "Cloud Hosting"],
+    link: "https://echoember.vercel.app/",
+  },
+  {
     title: "Cyber Glossary",
     description: "A comprehensive cybersecurity knowledge platform featuring 80+ clearly explained terms and definitions. Designed to help professionals advance their skills and career with career-focused learning and security-first practices.",
     tech: ["Next.js", "TypeScript", "Tailwind CSS", "React", "GitHub", "Vercel"],
     link: "https://www.cyberglossary.study/",
   },
   {
-    title: "WordPress CVE-2024-10924 Penetration Testing",
-    description: "Comprehensive penetration testing report for a critical 2FA bypass vulnerability (CVE-2024-10924) in the Really Simple SSL plugin. Successfully exploited and documented with detailed remediation guidance.",
-    tech: ["Python", "Penetration Testing", "WordPress", "Security Research", "GitHub", "Documentation"],
-    link: "https://github.com/ademto/wordpress-cve-2024-10924-pentest",
-  },
-  {
     title: "Cyber Cheatsheet",
     description: "A curated cybersecurity knowledge platform featuring categorized tools, commands, and techniques. Designed to help pentesters and defenders quickly access useful info.",
     tech: ["React", "Tailwind CSS", "Markdown", "Netlify", "GitHub"],
     link: "https://cyberref.netlify.app",
+  },
+  {
+    title: "Bethel Apostolic Church Website",
+    description: "Modern church website built with Next.js featuring calendars, donation features, and tools to foster church community engagement.",
+    tech: ["Next.js", "React", "TypeScript", "Tailwind CSS", "GitHub", "Vercel"],
+    link: "https://bethelapostolicchurch.ca",
+  },
+  {
+    title: "WordPress CVE-2024-10924 Penetration Testing",
+    description: "Comprehensive penetration testing report for a critical 2FA bypass vulnerability (CVE-2024-10924) in the Really Simple SSL plugin. Successfully exploited and documented with detailed remediation guidance.",
+    tech: ["Python", "Penetration Testing", "WordPress", "Security Research", "GitHub", "Documentation"],
+    link: "https://github.com/ademto/wordpress-cve-2024-10924-pentest",
   },
   {
     title: "Active Directory Security Lab",
@@ -56,12 +68,6 @@ const featuredProjects = [
     tech: ["React", "Tailwind CSS", "REST API", "React Router", "Vite"],
     link: "https://rest-countries-ademto.netlify.app",
   },  
-  {
-    title: "Bethel Apostolic Church Website",
-    description: "Modern church website built with Next.js featuring calendars, donation features, and tools to foster church community engagement.",
-    tech: ["Next.js", "React", "TypeScript", "Tailwind CSS", "GitHub", "Vercel"],
-    link: "https://bethelapostolicchurch.ca",
-  },
 ];
 
 export const Projects = () => {

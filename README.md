@@ -4,7 +4,7 @@ A modern, responsive portfolio website showcasing my work as a Full-Stack Develo
 
 ## 🚀 Live Demo
 
-[View Portfolio](https://emmanuel-adetoro.vercel.app)
+[View Portfolio](https://emmanueladetoro.com)
 
 ## ✨ Features
 

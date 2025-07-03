@@ -119,16 +119,16 @@ export const About = () => {
               </h3>
               <div className="space-y-6 text-gray-200">
                 <div className="border-l-4 border-orange-400 pl-4">
-                  <h4 className="font-bold text-lg text-white mb-2">IT & Cybersecurity Specialist</h4>
+                  <h4 className="font-bold text-lg text-white mb-2">Full Stack Developer</h4>
                   <p className="text-orange-300 font-medium">Orange Model Management Inc.</p>
                   <p className="text-sm text-gray-400">Jul 2024 - May 2025 · 11 mos</p>
                   <ul className="text-sm text-gray-300 mt-2 space-y-1">
-                    <li>• Managed and optimized security for company websites, deploying Web Application Firewalls for protection</li>
-                    <li>• Configured and maintained firewalls like pfSense to secure internal networks effectively</li>
-                    <li>• Conducted vulnerability assessments following NIST standards and provided responsive IT support</li>
-                    <li>• Provided IT support for on-site and remote teams across Windows, macOS, and Ubuntu systems</li>
-                    <li>• Administered Google Workspace and Slack, enhancing communication and productivity</li>
-                    <li>• Managed automated backup systems and led disaster recovery planning</li>
+                    <li>• Led the transition of the company's main website from traditional WordPress to a modern Headless CMS architecture, using Next.js and WordPress REST API</li>
+                    <li>• Integrated Shopify Storefront using GraphQL to power a seamless, custom shopping experience directly on the main website</li>
+                    <li>• Improved website performance, SEO, and scalability using server-side rendering (SSR) and Incremental Static Regeneration (ISR)</li>
+                    <li>• Built a modular and responsive frontend in Next.js, enhancing content delivery and product discovery</li>
+                    <li>• Managed cloud hosting, backups, and site reliability to ensure 99.9% uptime</li>
+                    <li>• Provided IT support across departments, handled network and hardware maintenance, and enforced cybersecurity best practices</li>
                   </ul>
                 </div>
                 
